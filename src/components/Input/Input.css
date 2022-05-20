@@ -1,0 +1,22 @@
+.input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_text {
+    width: 15rem;
+    padding: 0.8rem 0.3rem;
+    /* border: 1px solid red; */
+    border-radius: 0.5rem;
+    outline: none;
+    font-size: medium;
+    font-weight: 600;
+    background-color: gainsboro;
+}
+
+.input_text:focus {
+    background-color: whitesmoke;
+    color: black;
+}
